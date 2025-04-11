@@ -9,8 +9,8 @@
 ;--------------------------------
 ; Constants
 
-  !define PRODUCT "Gow"
-  !define VERSION "0.8.0-1"
+  !define PRODUCT "MyGow"
+  !define VERSION "1.0.0"
   !define SRC_DIR ".."
 
   Name "${PRODUCT}"
@@ -118,6 +118,7 @@ Function Files
   ; Executables
   SetOutPath "$INSTDIR\bin"
   File "${SRC_DIR}\bin\*.exe"
+    File "${SRC_DIR}\bin\custom\*.exe"
   File "${SRC_DIR}\bin\*.dll"
   File "${SRC_DIR}\bin\*.bat"
   File "${SRC_DIR}\bin\*.vbs"
