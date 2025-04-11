@@ -10,7 +10,7 @@
 ; Constants
 
   !define PRODUCT "MyGow"
-  !define VERSION "1.0.0"
+  !define VERSION "1.0.1"
   !define SRC_DIR ".."
 
   Name "${PRODUCT}"
